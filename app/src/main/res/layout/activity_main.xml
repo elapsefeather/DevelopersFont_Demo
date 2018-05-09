@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="featheryi.developersfont.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:text="字型設置步驟： \n1. 新建 TextView \n2. 設置屬性 fontFamily"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceline"
+                    android:layout_margin="@dimen/line_margin"
+                    android:background="@color/spaceline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:text="系統內預設字體如下："
+                    android:textSize="@dimen/title_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="casual"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="monospace"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="cursive"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="sans-serif"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="serif"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="serif-monospace"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceline"
+                    android:layout_margin="@dimen/line_margin"
+                    android:background="@color/spaceline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:text="配有 google 才可取得的線上字體："
+                    android:textSize="@dimen/title_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/aguafina_script"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/akronim"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/alex_brush"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/alice"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/allerta"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/annie_use_your_telescope"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/anonymous_pro"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/architects_daughter"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/arizonia"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/astloch_bold"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/bad_script"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/baumans"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/bilbo_swash_caps"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/biorhyme_extralight"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/caesar_dressing"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/cedarville_cursive"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/dawning_of_a_new_day"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/delius_unicase"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/jockey_one"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/sarina"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/yanone_kaffeesatz"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/yanone_kaffeesatz_bold"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/yanone_kaffeesatz_extralight"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/yellowtail"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/line_margin"
+                    android:fontFamily="@font/zeyada"
+                    android:text="Hello World!"
+                    android:textSize="@dimen/content_textsize" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

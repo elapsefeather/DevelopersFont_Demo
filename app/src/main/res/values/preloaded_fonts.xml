@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akronim</item>
+        <item>@font/alex_brush</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/alice</item>
+        <item>@font/allerta</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/anonymous_pro</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/arizonia</item>
+        <item>@font/astloch_bold</item>
+        <item>@font/bad_script</item>
+        <item>@font/baumans</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/biorhyme_extralight</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/dawning_of_a_new_day</item>
+        <item>@font/delius_unicase</item>
+        <item>@font/jockey_one</item>
+        <item>@font/sarina</item>
+        <item>@font/yanone_kaffeesatz</item>
+        <item>@font/yanone_kaffeesatz_bold</item>
+        <item>@font/yanone_kaffeesatz_extralight</item>
+        <item>@font/yellowtail</item>
+        <item>@font/zeyada</item>
+    </array>
+</resources>

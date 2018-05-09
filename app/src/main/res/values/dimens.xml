@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="line_margin">3dp</dimen>
+    <dimen name="spaceline">1dp</dimen>
+    <dimen name="title_textsize">22dp</dimen>
+    <dimen name="content_textsize">20dp</dimen>
+</resources>
